@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Вена, 6 ноября 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400&display=swap"
+    />
+    <link rel="stylesheet" href="hark.css" />
+    <link rel="stylesheet" href="hark-hero.css" />
+    <style>
+      .x-day { display: grid; gap: clamp(48px, 7vw, 88px); }
+      .x-sketch { margin: 0; display: grid; justify-items: center; gap: 16px; }
+      .x-sketch img {
+        display: block;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: min(88vh, 1100px);
+        object-fit: contain;
+        border-radius: var(--r-m);
+        box-shadow: var(--hark-shadow);
+        background: var(--fill-tertiary);
+      }
+      .x-sketch--wide img { width: 100%; max-height: none; }
+      .x-sketch figcaption { display: grid; gap: 4px; max-width: 40rem; text-align: center; padding-inline: 4px; }
+      .x-sketch__num { font: var(--type-label); color: var(--text-secondary); }
+      .x-sketch h3 { font: var(--type-heading); color: var(--text-primary); }
+      .x-sketch p { font: var(--type-body); color: var(--text-secondary); }
+      .x-note { max-width: 40rem; margin-inline: auto; text-align: center; padding: 24px; border-radius: var(--r-l); background: var(--fill-tertiary); display: grid; gap: 4px; }
+      .x-note h3 { font: var(--type-heading); }
+      .x-note p { font: var(--type-body); color: var(--text-secondary); }
+      .x-closing { text-align: center; font: var(--type-heading); color: var(--text-secondary); padding-block: clamp(24px, 4vw, 48px); }
+    </style>
+  <script src="../pages.js"></script><script src="../nav.js"></script></head>
+  <body>
+    <div class="page" id="top">
+      <header class="nav glass" data-auto></header>
+      <main class="main">
+        <section class="hero">
+          <div class="hero__copy">
+            <p class="hero__eyebrow">Дневник в рисунках · 06.11.2026</p>
+            <h1>Вена. 6 ноября 2026</h1>
+            <p class="hero__sub">Один неспешный день: утро в пансионе, кофе с выпечкой, Кернтнер-штрассе и тишина старой церкви.</p>
+          </div>
+        </section>
+
+        <figure class="x-sketch x-sketch--wide" id="anker" style="margin-top: clamp(20px, 2.4vw, 28px)">
+          <img src="03_1793968984945.jpg" width="1800" height="1005" alt="Акварель: прилавок пекарни Anker со свежей выпечкой" />
+          <figcaption>
+            <p class="x-sketch__num">Рисунок 03 · пекарня Anker (Анкер)</p>
+          </figcaption>
+        </figure>
+
+        <section class="section" id="intro">
+          <div class="prose">
+            <p>Мы живём у Оперы, в пансионе Pension Suzanne (Пансьон Сюзанн) на Walfischgasse (Вальфишгассе). Этот день мы прошли не торопясь — и каждую остановку сохранили в рисунке.</p>
+          </div>
+        </section>
+
+        <section class="section" id="morning" data-nav="Утро">
+          <div class="head"><h2>Утро начинается тихо.</h2></div>
+          <div class="x-day">
+            <figure class="x-sketch">
+              <img src="01_1793968594649.jpg" width="1208" height="1800" alt="Акварель: селфи в старинном резном зеркале номера" />
+              <figcaption>
+                <p class="x-sketch__num">01</p>
+                <h3>Утро в пансионе</h3>
+                <p>Первое фото дня — в старинном зеркале нашего номера.</p>
+              </figcaption>
+            </figure>
+            <figure class="x-sketch">
+              <img src="02_1793968803636.jpg" width="1013" height="1800" alt="Акварель: прогулка по пешеходной Кернтнер-штрассе" />
+              <figcaption>
+                <p class="x-sketch__num">02</p>
+                <h3>Кернтнер-штрассе</h3>
+                <p>Kärntner Straße (Кернтнер-штрассе — главная пешеходная улица центра) ещё тихая и свежая.</p>
+              </figcaption>
+            </figure>
+            <div class="x-note">
+              <p class="x-sketch__num">03</p>
+              <h3>Пекарня Anker</h3>
+              <p>Anker (Анкер — венская пекарня) прямо за углом: витрина со свежей выпечкой.</p>
+              <p><a class="link" href="#anker">Рисунок — в начале страницы</a></p>
+            </div>
+            <figure class="x-sketch">
+              <img src="04_1793969193228.jpg" width="1013" height="1800" alt="Акварель: завтрак за столиком у окна" />
+              <figcaption>
+                <p class="x-sketch__num">04</p>
+                <h3>Завтрак у окна</h3>
+                <p>Кофе, круассан, сэндвич и штрудель — венский завтрак без спешки.</p>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="section" id="city" data-nav="Город">
+          <div class="head"><h2>Старый город в ноябрьском свете.</h2></div>
+          <div class="x-day">
+            <figure class="x-sketch">
+              <img src="05_1793969940145.jpg" width="1005" height="1800" alt="Акварель: под арками у колонны, впереди улица" />
+              <figcaption>
+                <p class="x-sketch__num">05</p>
+                <h3>Под арками</h3>
+                <p>Колонны и своды старого города, впереди — улица в ноябрьском свете.</p>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="section" id="church" data-nav="Церковь">
+          <div class="head"><h2>Тишина старой церкви.</h2></div>
+          <div class="x-day">
+            <figure class="x-sketch">
+              <img src="06_1793970461670.jpg" width="1005" height="1800" alt="Акварель: готический неф Августинской церкви с люстрой и алтарём" />
+              <figcaption>
+                <p class="x-sketch__num">06</p>
+                <h3>Под готическими сводами</h3>
+                <p>Главный неф с люстрой и алтарём: Augustinerkirche (Августинеркирхе — Августинская церковь при Хофбурге).</p>
+              </figcaption>
+            </figure>
+            <figure class="x-sketch x-sketch--wide">
+              <img src="07_1793970731026.jpg" width="1800" height="1005" alt="Акварель: резные деревянные скамьи" />
+              <figcaption>
+                <p class="x-sketch__num">07</p>
+                <h3>Резные скамьи</h3>
+                <p>Минута отдыха на старинной дубовой скамье.</p>
+              </figcaption>
+            </figure>
+            <figure class="x-sketch">
+              <img src="08_1793970852088.jpg" width="1005" height="1800" alt="Акварель: стрельчатые готические арки и резная скамья" />
+              <figcaption>
+                <p class="x-sketch__num">08</p>
+                <h3>Тишина</h3>
+                <p>Высокие стрельчатые арки и резное дерево — здесь хочется просто посидеть.</p>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="section" id="evening" data-nav="Вечер">
+          <div class="head"><h2>Вечер дома.</h2></div>
+          <div class="x-day">
+            <figure class="x-sketch x-sketch--wide">
+              <img src="09_1793971019581.jpg" width="1800" height="1013" alt="Акварель: ужин в номере — ветчина, сыр и сок" />
+              <figcaption>
+                <p class="x-sketch__num">09</p>
+                <h3>Вечер дома</h3>
+                <p>Ужин в номере: ветчина, сыр, сок — и тост за хороший день.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <p class="x-closing">Вена, ноябрь 2026. Продолжение следует.</p>
+        </section>
+      </main>
+      <footer class="foot">
+        <p>Наш день в Вене · рисунки акварелью и карандашом, 06.11.2026</p>
+        <nav aria-label="К разделам" data-auto></nav>
+      </footer>
+    </div>
+    <script src="hark.js"></script>
+  </body>
+</html>

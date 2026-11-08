@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Вена. Начало пути</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400&display=swap"
+    />
+    <link rel="stylesheet" href="hark.css" />
+    <link rel="stylesheet" href="hark-hero.css" />
+    <style>
+      .x-sketches { display: grid; gap: 40px; }
+      .x-sketch { margin: 0; }
+      .x-sketch img {
+        display: block;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 85vh;
+        margin-inline: auto;
+        object-fit: contain;
+        border-radius: var(--r-l);
+      }
+      .x-sketch figcaption {
+        display: flex;
+        gap: 10px;
+        align-items: baseline;
+        font: var(--type-body);
+        color: var(--text-primary);
+        padding: 12px 4px 0;
+      }
+      .x-sketch__num { font: var(--type-caption); color: var(--text-secondary); min-width: 1.5em; }
+      .x-sketch--ref {
+        display: flex;
+        gap: 10px;
+        align-items: baseline;
+        padding: 20px;
+        border: 1px dashed var(--stroke-primary);
+        border-radius: var(--r-l);
+        font: var(--type-body);
+      }
+      .x-sketch--ref p { margin: 0; }
+    </style>
+  <script src="../pages.js"></script><script src="../nav.js"></script></head>
+  <body>
+    <div class="page" id="top">
+      <header class="nav glass" data-auto></header>
+      <main class="main">
+        <section class="hero">
+          <img class="hero__img" src="05_1793947451638.jpg" alt="Акварель: улица у Венской оперы, вечерние огни" />
+          <div class="hero__copy">
+            <p class="hero__eyebrow">Часть 1</p>
+            <h1>Вена. Начало пути</h1>
+            <p class="hero__sub">Рисунки Стаса, 5–6 ноября 2026</p>
+          </div>
+          <p class="hero__credit">Рисунок 5: улица у Оперы</p>
+        </section>
+
+        <section class="section" id="road" data-nav="В пути">
+          <div class="head">
+            <p class="head__eyebrow">5 ноября 2026</p>
+            <h2>В пути</h2>
+          </div>
+          <div class="x-sketches">
+            <figure class="x-sketch">
+              <img src="01_1793867640495.jpg" alt="Лариса с телефоном у окна" />
+              <figcaption><span class="x-sketch__num">1</span><span>Утро в дороге. Лариса с телефоном у окна.</span></figcaption>
+            </figure>
+            <figure class="x-sketch">
+              <img src="02_1793872940308.jpg" alt="Пара с чемоданами в терминале аэропорта" loading="lazy" />
+              <figcaption><span class="x-sketch__num">2</span><span>Аэропорт. Чемоданы, и мы вдвоём.</span></figcaption>
+            </figure>
+            <figure class="x-sketch">
+              <img src="03_1793883473321.jpg" alt="Селфи вдвоём в самолёте" loading="lazy" />
+              <figcaption><span class="x-sketch__num">3</span><span>Селфи в самолёте.</span></figcaption>
+            </figure>
+            <figure class="x-sketch">
+              <img src="04_1793884121842.jpg" alt="Карандаш: крыло самолёта в иллюминаторе" loading="lazy" />
+              <figcaption><span class="x-sketch__num">4</span><span>В иллюминаторе — крыло и аэродром.</span></figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="section" id="vienna" data-nav="Вена">
+          <div class="head">
+            <h2>Первые шаги по Вене</h2>
+          </div>
+          <div class="x-sketches">
+            <div class="x-sketch--ref">
+              <span class="x-sketch__num">5</span>
+              <p>Улица у Оперы, вечерние огни. <a class="link" href="#top">Рисунок в начале страницы ↑</a></p>
+            </div>
+            <figure class="x-sketch">
+              <img src="06_1793947534505.jpg" alt="Старый дом в праздничной подсветке" loading="lazy" />
+              <figcaption><span class="x-sketch__num">6</span><span>Старый дом в праздничной подсветке.</span></figcaption>
+            </figure>
+            <figure class="x-sketch">
+              <img src="07_1793947647196.jpg" alt="Женщина у витрины с плюшевыми мишками" loading="lazy" />
+              <figcaption><span class="x-sketch__num">7</span><span>Витрина с плюшевыми мишками.</span></figcaption>
+            </figure>
+            <figure class="x-sketch">
+              <img src="08_1793949075214.jpg" alt="Магазин мишек и большой мишка на улице" loading="lazy" />
+              <figcaption><span class="x-sketch__num">8</span><span>Мишки у входа — и большой мишка на улице.</span></figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="section" id="rest" data-nav="Отдых">
+          <div class="head">
+            <h2>Отдых</h2>
+          </div>
+          <div class="x-sketches">
+            <figure class="x-sketch">
+              <img src="09_1793948172118.jpg" alt="Карандаш: уставшая женщина отдыхает в кресле" loading="lazy" />
+              <figcaption><span class="x-sketch__num">9</span><span>Устали. Карандашный набросок.</span></figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="section" id="next">
+          <div class="head">
+            <h2>Что было дальше</h2>
+          </div>
+          <div class="links">
+            <a class="btn" href="../02-6-noyabrya/" >Дальше: Вена, 6 ноября 2026 →</a>
+          </div>
+        </section>
+      </main>
+      <footer class="foot">
+        <p>Продолжение — <a class="link" href="../02-6-noyabrya/" target="_blank" rel="noopener">Вена, 6 ноября 2026</a></p>
+        <nav aria-label="К разделам" data-auto></nav>
+        <a class="badge" href="https://hark.com/" target="_blank" rel="noopener"><span class="hark-mark"></span><span>built by hark</span></a>
+      </footer>
+    </div>
+    <script src="hark.js"></script>
+  </body>
+</html>
