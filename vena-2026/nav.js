@@ -8,11 +8,14 @@
     var prev = i>0 ? a('../'+P[i-1].dir+'/', '← '+P[i-1].title) : '<span></span>';
     var next = (i>=0 && i<P.length-1) ? a('../'+P[i+1].dir+'/', P[i+1].title+' →') : '<span></span>';
     var d = document.createElement('nav');
-    d.setAttribute('style','display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:4px;font:15px/1.3 system-ui,sans-serif;background:#f4efe6;border-top:1px solid #ddd;border-bottom:1px solid #ddd;padding:2px 8px;');
+    d.setAttribute('style','display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:4px;font:17px/1.3 system-ui,sans-serif;background:#f4efe6;border-top:1px solid #ddd;border-bottom:1px solid #ddd;padding:2px 8px;');
     d.innerHTML = prev + a('../', '☰ Все дни') + next;
     return d;
   }
   document.addEventListener('DOMContentLoaded', function(){
+    var st=document.createElement('style'); st.id='VENA_FONT';
+    st.textContent=':root{--size-caption:15px!important;--size-small:17px!important;--size-body:18px!important;--size-prose:19px!important}body{font-size:18px}.prose p,.head__sub{line-height:1.6}';
+    document.head.appendChild(st);
     document.body.insertBefore(bar(), document.body.firstChild);
     document.body.appendChild(bar());
   });
