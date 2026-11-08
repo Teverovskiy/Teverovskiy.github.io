@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Вена, 8 ноября 2026. Утро</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link rel="stylesheet" href="hark.css" />
+    <link rel="stylesheet" href="hark-hero.css" />
+    <style>
+      .x-art { margin: 0; }
+      .x-art img {
+        display: block;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 85vh;
+        margin-inline: auto;
+        border-radius: var(--r-l);
+        background: var(--fill-tertiary);
+      }
+      .x-art--lead { margin-top: clamp(16px, 2.4vw, 24px); }
+      .x-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        align-items: start;
+        margin: 0;
+      }
+      .x-gallery img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: var(--r-m);
+      }
+      .x-back { display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
+    </style>
+  <script src="../pages.js"></script><script src="../nav.js"></script></head>
+  <body>
+    <div class="page" id="top">
+      <header class="nav glass" data-auto></header>
+      <main class="main">
+        <section class="hero">
+          <div class="hero__copy">
+            <h1>Вена, 8 ноября 2026. Утро</h1>
+            <p class="hero__sub">Воскресное утро в комнате на Walfischgasse (Вальфишгассе): завтрак на кровати и вся семья вместе</p>
+          </div>
+        </section>
+        <figure class="x-art x-art--lead">
+          <img src="u1.jpg" alt="Утро в кресле" />
+        </figure>
+
+        <section class="section" id="morning" data-nav="Утро">
+          <div class="head"><h2>Тихое начало</h2></div>
+          <div class="prose">
+            <p>Воскресенье. За окном Вена ещё не проснулась, а в комнате пансиона уже светло от бра над кроватью. Сначала тишина: красное кресло, планшет, плед на коленях.</p>
+            <p>Потом проснулся младший. Его умывали прямо в постели, а он улыбался и не спешил вылезать из-под одеяла.</p>
+          </div>
+          <figure class="x-art" style="margin-top:24px"><img src="u2.jpg" alt="Доброе утро, малыш" loading="lazy" /></figure>
+        </section>
+
+        <section class="section" id="breakfast" data-nav="Завтрак">
+          <div class="head"><h2>Завтрак на кровати</h2></div>
+          <div class="prose">
+            <p>Стол решили не искать: накрыли прямо на покрывале. Яичница, хлеб, ветчина, бутылочка соуса, и всё это под смех и разговоры.</p>
+          </div>
+          <figure class="x-art" style="margin-top:24px"><img src="u3.jpg" alt="Накрываем завтрак" loading="lazy" /></figure>
+          <figure class="x-art" style="margin-top:24px"><img src="u4.jpg" alt="Всё на стол" loading="lazy" /></figure>
+          <div class="prose" style="margin-top:24px"><p>Кто-то пьёт кофе и рассказывает про дорогу, а внук кормит бабушку с руки. Самый вкусный завтрак за всю поездку.</p></div>
+          <figure class="x-art" style="margin-top:24px"><img src="u5.jpg" alt="Кофе и смех" loading="lazy" /></figure>
+        </section>
+      </main>
+      <footer class="foot">
+        <div class="x-back">
+          <a class="btn" href="../03-7-noyabrya/">← Назад: Вена, 7 ноября 2026</a>
+          <p>Рисунки — акварель. Продолжение следует.</p>
+        </div>
+        <nav aria-label="К разделам" data-auto></nav>
+      </footer>
+    </div>
+    <script src="hark.js"></script>
+  </body>
+</html>
