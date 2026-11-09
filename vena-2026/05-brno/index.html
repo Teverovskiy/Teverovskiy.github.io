@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Переезд в Чехию. Брно</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link rel="stylesheet" href="hark.css" />
+    <link rel="stylesheet" href="hark-hero.css" />
+    <style>
+      .x-art { margin: 0; }
+      .x-art img {
+        display: block;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 85vh;
+        margin-inline: auto;
+        border-radius: var(--r-l);
+        background: var(--fill-tertiary);
+      }
+      .x-art--lead { margin-top: clamp(16px, 2.4vw, 24px); }
+      .x-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        align-items: start;
+        margin: 0;
+      }
+      .x-gallery img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: var(--r-m);
+      }
+      .x-back { display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
+    </style>
+  <script src="../pages.js"></script><script src="../nav.js"></script></head>
+  <body>
+    <div class="page" id="top">
+      <header class="nav glass" data-auto></header>
+      <main class="main">
+        <section class="hero">
+          <div class="hero__copy">
+            <h1>Переезд в Чехию. Брно</h1>
+            <p class="hero__sub">Прощаемся с Веной и собираемся в дорогу</p>
+          </div>
+        </section>
+        <figure class="x-art x-art--lead">
+          <img src="b1.jpg" alt="Сборы в дорогу" />
+        </figure>
+
+        <section class="section" id="sbory" data-nav="Сборы">
+          <div class="head"><h2>Сборы</h2></div>
+          <div class="prose" style="margin-top:24px"><p>Последнее утро в Pension Suzanne (Пансион Сюзанн). Чемодан раскрыт на кровати, вещи никак не хотят в него влезать, а над тумбочкой всё так же горит знакомое бра на два рожка. Ещё немного — и в путь, в Brno (Брно).</p></div>
+        </section>
+      </main>
+      <footer class="foot">
+        <div class="x-back">
+          <a class="btn" href="../04-8-noyabrya/">← Назад: Вена, 8 ноября 2026</a>
+          <p>Рисунки — акварель. Продолжение следует.</p>
+        </div>
+        <nav aria-label="К разделам" data-auto></nav>
+      </footer>
+    </div>
+    <script src="hark.js"></script>
+  </body>
+</html>
