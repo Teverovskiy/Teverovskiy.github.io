@@ -16,7 +16,7 @@
       .x-day h3{margin:4px 0 6px;font-size:22px}
       .x-day p{margin:0;color:var(--text-secondary);font-size:18px;line-height:1.5}
     </style>
-    <script src="pages.js?v=20261110b"></script>
+    <script src="pages.js?v=20261110c"></script>
   </head>
   <body>
     <div class="page" id="top">
@@ -38,7 +38,7 @@
     </div>
     <script>
       document.getElementById('list').innerHTML = VENA_PAGES.map(function(p,i){
-        return '<a class="x-day" href="'+p.dir+'/">'+(p.img?'<img src="'+p.img+'" alt="" loading="lazy">':'')+
+        return '<a class="x-day" href="'+p.dir+'/?v='+window.VENA_LINKV+'">'+(p.img?'<img src="'+p.img+'" alt="" loading="lazy">':'')+
           '<div class="x-day__body"><span class="x-day__num">День '+(i+1)+'</span><h3>'+p.title+'</h3>'+(p.text?'<p>'+p.text+'</p>':'')+'</div></a>';
       }).join('');
     </script>
