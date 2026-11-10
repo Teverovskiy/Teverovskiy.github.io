@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Брно, 10 ноября 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link rel="stylesheet" href="hark.css" />
+    <link rel="stylesheet" href="hark-hero.css" />
+    <style>
+      .x-art { margin: 0; }
+      .x-art img {
+        display: block;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 85vh;
+        margin-inline: auto;
+        border-radius: var(--r-l);
+        background: var(--fill-tertiary);
+      }
+      .x-art--lead { margin-top: clamp(16px, 2.4vw, 24px); }
+      .x-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        align-items: start;
+        margin: 0;
+      }
+      .x-gallery img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: var(--r-m);
+      }
+      .x-back { display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
+    </style>
+  <script src="../pages.js?v=20261110a"></script><script src="../nav.js?v=20261110a"></script></head>
+  <body>
+    <div class="page" id="top">
+      <header class="nav glass" data-auto></header>
+      <main class="main">
+        <section class="hero">
+          <div class="hero__copy">
+            <h1>Брно, 10 ноября 2026</h1>
+            <p class="hero__sub">Трамвай, Старая ратуша и Капустный рынок</p>
+          </div>
+        </section>
+        <figure class="x-art x-art--lead">
+          <img src="c8.jpg" alt="На Капустном рынке у фонтана" />
+        </figure>
+
+        <section class="section" id="utro" data-nav="Утро">
+          <div class="head"><h2>Утро</h2></div>
+          <div class="prose" style="margin-top:24px"><p>Утро начинается с хорошего настроения: всё чёрное, веер в руке, стоим на одной ноге, как цапли. Маленькая разминка перед большой прогулкой.</p></div>
+          <figure class="x-art" style="margin-top:24px"><img src="c1.jpg" alt="Утренняя разминка с веером" /></figure>
+        </section>
+
+        <section class="section" id="tramvaj" data-nav="Трамвай">
+          <div class="head"><h2>Трамвай</h2></div>
+          <div class="prose" style="margin-top:24px"><p>Над крышами тяжёлые облака, а вдоль старых домов катится красно-белый трамвай. Ехать на нём неспешно и уютно, город сам проплывает за окном.</p></div>
+          <figure class="x-art" style="margin-top:24px"><img src="c2.jpg" alt="Трамвай на улице Брно" /></figure>
+        </section>
+
+        <section class="section" id="ratusha" data-nav="Ратуша">
+          <div class="head"><h2>Старая ратуша</h2></div>
+          <div class="prose" style="margin-top:24px"><p>Идём по улице к старому городу. Шапки с помпонами, тёплые пуховики, в руках стаканчики с горячим, а впереди уже виднеется башня.</p></div>
+          <figure class="x-art" style="margin-top:24px"><img src="c3.jpg" alt="Прогулка по улице со стаканчиками" /></figure>
+          <div class="prose" style="margin-top:24px"><p>Вот и она — Stará radnice (Стара радница, Старая ратуша). Зелёный шпиль с часами, а внизу резной каменный портал. Задираем головы и смотрим вверх.</p></div>
+          <figure class="x-art" style="margin-top:24px"><img src="c4.jpg" alt="Башня Старой ратуши" /></figure>
+          <div class="prose" style="margin-top:24px"><p>Портреты на фоне башни и старых фасадов с лепниной. Каждый хочет свой кадр на память.</p></div>
+          <div class="x-gallery" style="margin-top:24px">
+            <img src="c5.jpg" alt="Портрет у старого дома" />
+            <img src="c6.jpg" alt="Вдвоём на фоне башни ратуши" />
+          </div>
+          <div class="prose" style="margin-top:24px"><p>И мужской кадр: плечом к плечу на старой брусчатке, оба довольные.</p></div>
+          <figure class="x-art" style="margin-top:24px"><img src="c7.jpg" alt="Двое мужчин на брусчатке" /></figure>
+        </section>
+
+        <section class="section" id="rynok" data-nav="Рынок">
+          <div class="head"><h2>Капустный рынок</h2></div>
+          <div class="prose" style="margin-top:24px"><p>Zelný trh (Зелны трг, Капустный рынок). Позади фонтан Парнас с каменными фигурами, над крышами два шпиля собора на Petrov (Петров). Обнимаемся и улыбаемся.</p></div>
+          <div class="prose" style="margin-top:24px"><p>На площади уже стоят деревянные домики: город готовится к рождественской ярмарке. Ходим между ними, показываем друг другу, что где будет.</p></div>
+          <figure class="x-art" style="margin-top:24px"><img src="c9.jpg" alt="Деревянные домики будущей ярмарки" /></figure>
+        </section>
+      </main>
+      <footer class="foot">
+        <div class="x-back">
+          <a class="btn" href="../05-brno/">← Назад: Переезд в Чехию. Брно</a>
+          <p>Рисунки — акварель. Продолжение следует.</p>
+        </div>
+        <nav aria-label="К разделам" data-auto></nav>
+      </footer>
+    </div>
+    <script src="hark.js"></script>
+  </body>
+</html>
